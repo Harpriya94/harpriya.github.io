@@ -1,8 +1,8 @@
 # Top performing Canada Youtubers Analysis for Marketing Campaign
 
 # Table of contents
-- [Project Overview](#Project Overview)
-- [ Business Problem](# Business Problem)
+- [Project Overview](#ProjectOverview)
+- [Business Problem](#BusinessProblem)
 
 ## 📌 Project Overview
 This project is to discover the top performing Canada YouTubers to form marketing collaborations with throughout the year 2024.   
