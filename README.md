@@ -26,8 +26,7 @@ The Head of Marketing wants to use a dashboard to analyze the top performing You
 <img src="/assets/images/Excel Dataset.png" width="50%" /> ➡️ <img src="/assets/images/Power BI Dashboard Visual.png" width="50%" />
 
 
-![Raw Data](/assets/images/Excel Dataset.png)
-![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
+![Raw Data](/assets/images/Excel Dataset.png | width="50%") ![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png | width="50%")
 
 
 This dashboard should allow to identify the top performing channels based on metrics like subscriber base and average views.
