@@ -1,35 +1,24 @@
-# 📊 Top Performing Canadian YouTubers – Data Analyst Portfolio Project
+# Top Performing Canadian YouTubers 2024
 
-This end-to-end **data analytics project** demonstrates my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
+This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
-The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**, rather than vanity metrics alone.
+The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**.
 
 # Table of contents
-- [Project Overview](#Project-Overview)
-- [User Story](#userstory)
-- [Data Source](#data-source)
-- [Stages](#stages)
-- [Design](#desgin)
-  - [Tools & Technologies](#tools&Technologies)  
-- [Development](#development)
-  - [Data Exploration](#dataexploration)
-  - [Data Cleaning](#datacleaning)
-  - [Data Transformation](#datatransformation)
-  - [Create SQL View](#sqlview)
-- [Testing](#testing)
-  - [Data Quality Checks](#datachecks)
-- [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measure](#dax)
-- [Analysis](#analysis)
-  - [Findings](#findings)
+- [Overview](#overview)
+- [Business Challenge](#business-challenge)
+- [Tools & Technologies](#tools&Technologies)  
+- [Project Stages](#project-stages)
+  - [Development](#development)
+    -[Data Exploration](#data-exploration)
+    -[Data Cleaning](#data-cleaning)
+    -[Data Quality Check](#data-quality-check)
+    -[Visualization](#visualization)
+  - [Analysis](#analysis)
   - [Validation](#validation)
-  - [Discovery](#discovery)
-- [Recommendations](#recomm)
-  - [Potential ROI](#roi)
-  - [Potential Courses of Actions](#actions)
-- [Conclusion](#conclusion)
-- [Business Problem](#Business-Problem)
+  - [Findings & Discovery](#findings&discovery)
+  - [Recommendations](#recommendations)
+  - [Action Plan](#action-plan)
 
 ## Project Overview
 The Head of Marketing wants to use a dashboard that analyses YouTube channel data in the Canada.
