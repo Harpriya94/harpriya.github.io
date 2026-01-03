@@ -1,8 +1,5 @@
-# 🎩Top Performing Canadian YouTubers 2024
-
+# 🌟Excel to Power BI Project - Top Performing Canadian YouTubers
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
-
-The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**.
 
 ## 📋Table of contents
 - [Overview](#overview)
@@ -21,8 +18,9 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 - [Action Plan](#action-plan)
 
 ### 📝Overview
-The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada.
-This project displays the steps taken to convert raw excel data into power bi dashboard.
+The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**.
+
+The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
 
 ![Raw Data](/assets/images/Excel Dataset.png) 
 ![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
@@ -87,9 +85,65 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 ![SQL View](/assets/images/SQL View.png)
 
 
-
 #### Data Quality Check
+Steps taken at this stage:
+- Row count test: at least 100 records required (Use COUNT)
+  ```sql
+-- Row Count Check
+SELECT 
+	COUNT(*) AS No_of_rows
+FROM 
+	[dbo].[view_canada_youtube]
+  ```sql
+  
+- Column count test: at least 4 columns required (Use COUNT in INFORMATION_SCHEMA.COLUMNS)
+```sql
+-- Column Count Check
+SELECT 
+	COUNT(*) AS No_of_cols 
+FROM 
+	INFORMATION_SCHEMA.COLUMNS
+WHERE 
+	TABLE_NAME = 'view_canada_youtube'
+```sql
+
+- Datatype check: Channel name must be string and other columns should be whole numbers (Use INFORMATION_SCHEMA)
+```sql
+-- Datatype Check
+SELECT 
+	COLUMN_NAME, DATA_TYPE
+FROM 
+	INFORMATION_SCHEMA.COLUMNS
+WHERE 
+	TABLE_NAME = 'view_canada_youtube'
+
+```sql
+
+- Duplicate check: each record must be unique (Use COUNT, GROUP BY, HAVING)
+```sql
+-- Duplicate Check
+SELECT 
+	[Channel_Name],
+	COUNT(*) AS duplicate_count
+FROM 
+	[dbo].[view_canada_youtube]
+GROUP BY
+	Channel_Name
+HAVING
+	COUNT(*) > 1
+
+--Another method to check duplicate
+SELECT 
+	COUNT(DISTINCT [Channel_Name]) 
+FROM 
+	[dbo].[view_canada_youtube]
+```sql
+
+![SQL Quality Check](/assets/images/SQL Data Testing.png)
+
 #### Visualization
+
+
 
 ---
 
