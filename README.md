@@ -1,10 +1,10 @@
-# Top Performing Canadian YouTubers 2024
+# 🎩Top Performing Canadian YouTubers 2024
 
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
 The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**.
 
-# Table of contents
+# 📋Table of contents
 - [Overview](#overview)
 - [Business Challenge](#business-challenge)
 - [Tools & Technologies](#tools&Technologies)  
@@ -21,7 +21,11 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 - [Action Plan](#action-plan)
 
 ## Overview
-The Head of Marketing wants to use a dashboard that analyses YouTube channel data in the Canada.
+The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
+
+![Raw Data](/assets/images/Excel Dataset.png)
+![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
+
 
 This dashboard should allow to identify the top performing channels based on metrics like subscriber base and average views.
 
