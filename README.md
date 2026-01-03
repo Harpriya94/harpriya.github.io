@@ -76,6 +76,20 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 - Import excel file
 - Remove unnecessary columns (use SELECT statement)
 - Extract YouTube channel names from first column (use CHARINDEX & SUBSTRING)
+```sql
+SELECT CHARINDEX('@', [NAME]), [NAME] FROM [dbo].[youtube_data_canada]
+
+-- SUBSTRING & CREATING VIEW FOR POWER BI
+CREATE VIEW view_canada_youtube as 
+
+SELECT 
+	CAST(SUBSTRING([NAME], 1, CHARINDEX('@',[NAME])-1) AS varchar(100)) as 'Channel_Name',
+	[Total_Subscriber],
+	[Total_Views],
+	[Total_Videos]
+FROM
+	[dbo].[youtube_data_canada]
+```
 
 ![SQL Data Cleaning](/assets/images/SQL Data Cleaning.png)
   
