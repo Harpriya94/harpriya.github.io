@@ -131,7 +131,7 @@ GROUP BY
 HAVING
 	COUNT(*) > 1
 
---Another method to check duplicate
+-- Another method to check duplicate
 SELECT 
 	COUNT(DISTINCT [Channel_Name]) 
 FROM 
