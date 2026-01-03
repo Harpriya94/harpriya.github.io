@@ -26,7 +26,7 @@ The Head of Marketing wants to use a dashboard to analyze the top performing You
 <img src="/assets/images/Excel Dataset.png" width=50 /> ➡️ <img src="/assets/images/Power BI Dashboard Visual.png" width=50 />
 
 
-![Raw Data](/assets/images/Excel Dataset.png | width=50) 
+![Raw Data](/assets/images/Excel Dataset.png | width="50") 
 ![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png =250x250)
 
 
