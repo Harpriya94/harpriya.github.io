@@ -153,22 +153,16 @@ Steps taken at this stage:
 - Import SQL view file (cleaned) into power bi
 - Create DAX Measures
 	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
-
 ![](/assets/images/DAX Measure - Total Subscriber.png)
 	- Total Views (B) = Sum of Total View / 1000000000
-
 ![](/assets/images/DAX Measure - Total Views.png)
 	- Total Videos = Sum of Total Videos
-
 ![](/assets/images/DAX Measure - Total Videos.png)
 	- Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
-
 ![](/assets/images/DAX Measure - Avg Views Per Video.png)
 	- Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
-
 ![](/assets/images/DAX Measure - Subs Eng Rate.png)
 	- Views per Subscriber = Sum of Total View / Sum of Total Subscriber
-
 ![](/assets/images/DAX Measure - views per subscriber.png)
 
 - Build visuals
