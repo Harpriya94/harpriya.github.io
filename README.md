@@ -1,5 +1,5 @@
-# 🌟Excel to Power BI Project
-# Top Performing Canadian YouTubers
+# 🌟Excel to Power BI 
+# ⬆️Project: Top Performing Canadian YouTubers
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
 ## 📋Table of contents
@@ -172,11 +172,11 @@ Steps taken at this stage:
 ![](/assets/images/DAX Measure - views per subscriber.png)
 
 - Build visuals
-	- Create table visual
- 	- Create a tree map visual
- 	- Create a scorecard
- 	- Create a bar chart
- 	- Clean up the dashboard – color coding and alignments
+ - Create table visual
+ - Create a tree map visual
+ - Create a scorecard
+ - Create a bar chart
+ - Clean up the dashboard – color coding and alignments
 
 ---
 
