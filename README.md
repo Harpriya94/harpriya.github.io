@@ -1,5 +1,5 @@
 # 🌟Excel to Power BI 
-# ⬆️Project: Top Performing Canadian YouTubers
+## ⬆️Project: Top Performing Canadian YouTubers
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
 ## 📋Table of contents
