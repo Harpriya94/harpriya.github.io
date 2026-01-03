@@ -1,4 +1,8 @@
-# Top performing Canada Youtubers Analysis for Marketing Campaign
+# 📊 Top Performing Canadian YouTubers – Data Analyst Portfolio Project
+
+This end-to-end **data analytics project** demonstrates my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
+
+The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**, rather than vanity metrics alone.
 
 # Table of contents
 - [Project Overview](#Project-Overview)
@@ -53,11 +57,69 @@ This analysis answers these questions and provides **actionable recommendations*
 
 ---
 
-## 🛠️ Tools & Technologies
-| Tool | Purpose |
-|----|----|
-| Python (Pandas, NumPy) | Data cleaning and feature engineering |
-| SQL (PostgreSQL/MySQL) | Data analysis and aggregation |
-| Power BI | Interactive dashboards and reporting |
-| GitHub | Version control and project documentation |
+## 🛠️ Tools & Skills Applied
+| Tool |Purpose | Skills Demonstrated |
+|-----|---------|-----------|
+| **Excel** | Exploring the data | Formulas, Data Conversion, Data Formatting |
+| **SQL** | Cleaning, testing, and analyzing the data | CTEs, SELECT, CHARINDEX, COUNT, INFORMATION_SCHEMA, GROUP BY, ORDER, SQL Views |
+| **Power BI** | Visualizing the data via interactive dashboards | DAX measures, Charts, Maps |
+
+
+---
+
+## 📁 Data Preparation (Excel)
+- Standardized raw YouTube data
+- Removed duplicates and handled missing values
+- Removed unnecessary columns
+- Extracting Channel Name from first column separated by ‘@’  symbol.
+- Cell formatting from Text/General to Number
+- Rounding up values
+- Prepared analysis-ready datasets for SQL and Power BI
+
+### Excel Data
+
+---
+
+## 🧮 SQL Analysis Highlights
+Used SQL to clean data and run quality checks.
+- Ranked YouTubers by **engagement rate**, not just subscribers
+-
+
+**Example KPIs:**
+- Average engagement rate by category
+- Top 10 creators by marketing value
+- Subscriber vs engagement distribution
+
+---
+
+## 📊 Power BI Dashboard (Executive View)
+Designed an **interactive Power BI dashboard** for non-technical stakeholders:
+- KPI cards for subscribers, engagement, and views
+- Category-wise influencer performance
+- Influencer ranking for campaign selection
+- Filters by category and subscriber size
+
+📌 *Dashboard designed to support marketing and leadership decision-making.*
+
+---
+
+## 📈 Key Insights & Impact
+- Engagement rate is a **stronger predictor of campaign success** than subscriber count
+- **Mid-sized creators** often outperform large creators in engagement
+- Entertainment and Lifestyle categories show **higher marketing ROI**
+- Data-driven influencer selection can **reduce campaign risk and costs**
+
+---
+
+## 🧩 Business Value
+This analysis enables organizations to:
+- Improve influencer selection accuracy
+- Allocate marketing budgets more efficiently
+- Increase campaign ROI using data-backed insights
+- Move from intuition-based to **analytics-driven decisions**
+
+---
+
+## 🗂️ Project Structure
+
 
