@@ -154,6 +154,7 @@ Steps taken at this stage:
 - Create DAX Measures
 	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
 ![](/assets/images/DAX Measure - Total Subscriber.png)
+
 	- Total Views (B) = Sum of Total View / 1000000000
 ![](/assets/images/DAX Measure - Total Views.png)
 	- Total Videos = Sum of Total Videos
