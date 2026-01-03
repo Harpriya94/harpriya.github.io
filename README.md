@@ -10,17 +10,17 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 - [Tools & Technologies](#tools&Technologies)  
 - [Project Stages](#project-stages)
   - [Development](#development)
-    -[Data Exploration](#data-exploration)
-    -[Data Cleaning](#data-cleaning)
-    -[Data Quality Check](#data-quality-check)
-    -[Visualization](#visualization)
+    - [Data Exploration](#data-exploration)
+    - [Data Cleaning](#data-cleaning)
+    - [Data Quality Check](#data-quality-check)
+    - [Visualization](#visualization)
   - [Analysis](#analysis)
   - [Validation](#validation)
-  - [Findings & Discovery](#findings&discovery)
-  - [Recommendations](#recommendations)
-  - [Action Plan](#action-plan)
+- [Findings & Discovery](#findings&discovery)
+- [Recommendations](#recommendations)
+- [Action Plan](#action-plan)
 
-## Project Overview
+## Overview
 The Head of Marketing wants to use a dashboard that analyses YouTube channel data in the Canada.
 
 This dashboard should allow to identify the top performing channels based on metrics like subscriber base and average views.
