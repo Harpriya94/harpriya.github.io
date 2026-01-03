@@ -1,4 +1,5 @@
-# 🌟Excel to Power BI Project - Top Performing Canadian YouTubers
+# 🌟Excel to Power BI Project
+# Top Performing Canadian YouTubers
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
 ## 📋Table of contents
@@ -58,9 +59,9 @@ The general approach in creating this solution from start to finish.
 
  ---
 
-### Development
+### 👩‍💻Development
 
-#### Data Exploration
+#### 🔍Data Exploration
 This is the stage where you have a scan of what’s in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc. Steps taken at this stage:
 - Get source data from client
 - Exploring and analyzing data
@@ -70,7 +71,7 @@ This is the stage where you have a scan of what’s in the data, errors, inconcs
 
 ![Excel Formula](/assets/images/Excel Formula - Split Cell Value.png)
 
-#### Data Cleaning
+#### 🧹Data Cleaning
 The aim is to refine our dataset to ensure it is structured and ready for analysis. Steps taken at this stage:
 - Create new database – use database
 - Import excel file
@@ -83,7 +84,7 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 
  ![SQL View](/assets/images/SQL View.png)
 
-#### Data Quality Check
+#### 🩺Data Quality Check
 Steps taken at this stage:
 
 - Row count test: at least 100 records required (Use COUNT)
@@ -143,7 +144,7 @@ FROM
 
 ![SQL Quality Check](/assets/images/SQL Data Testing.png)
 
-#### Visualization
+#### 🎭Visualization
 Dashboard consist table containing all data. It shows a tree map and bar chart of top 10 Youtubers by views and subscribers. This is how dashboard looks like:  
 
 ![Dashboard](assets/images/Power BI Dashboard Visual.png)  
@@ -157,12 +158,16 @@ Steps taken at this stage:
 
 	- Total Views (B) = Sum of Total View / 1000000000
 ![](/assets/images/DAX Measure - Total Views.png)
-	- Total Videos = Sum of Total Videos
+
+	- Total Videos = Sum of the Total Videos
 ![](/assets/images/DAX Measure - Total Videos.png)
+
 	- Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
 ![](/assets/images/DAX Measure - Avg Views Per Video.png)
+
 	- Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
 ![](/assets/images/DAX Measure - Subs Eng Rate.png)
+
 	- Views per Subscriber = Sum of Total View / Sum of Total Subscriber
 ![](/assets/images/DAX Measure - views per subscriber.png)
 
@@ -175,7 +180,7 @@ Steps taken at this stage:
 
 ---
 
-### Analysis
+### 📈Analysis
 Create excel sheet to calculate top 3 YouTube channels values calculated using excel formulas:
 - Avg Views per Video = Filtered values from Power BI file.
 -  Potential Product Sales per Video = Avg Views per Video * Conversion Rate
@@ -186,7 +191,7 @@ Create excel sheet to calculate top 3 YouTube channels values calculated using e
 
 ---
 
-### Validation
+### ☑️Validation
 Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd using SQL query
 - Define Variables
 - Create CTE that rounds the average views per video
@@ -198,7 +203,7 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 
 ---
 
-### Findings & Discovery
+### 🔬Findings & Discovery
 - Top 3 YouTubers with the most subscribers:
 - Top 3 channels have uploaded the most videos:
 - Top 3 channels have the most views:
@@ -212,14 +217,14 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 
 ---
 
-### Recommendations
+### 👍Recommendations
 - Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada.
 - Although Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
 - The top 3 channels to form collaborations with are Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd based on this analysis, because they attract the most engagement on their channels consistently.
 
 ---
 
-### Action Plan
+### ⚡Action Plan
 - Reach out to the teams behind each of these channels, starting with The Weeknd.
 - Negotiate contracts within the budgets allocated to each marketing campaign.
 - Kick off the campaigns and track each of their performances against the KPIs.
