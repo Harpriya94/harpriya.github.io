@@ -4,7 +4,7 @@ This is an end-to-end **data analytics project** demonstrating my ability to **c
 
 The project focuses on identifying **high-performing Canadian YouTubers** to help marketing teams select influencers based on **engagement, reach, and ROI**.
 
-# 📋Table of contents
+## 📋Table of contents
 - [Overview](#overview)
 - [Business Challenge](#business-challenge)
 - [Tools & Technologies](#tools&Technologies)  
@@ -20,7 +20,7 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 - [Recommendations](#recommendations)
 - [Action Plan](#action-plan)
 
-## 📝Overview
+### 📝Overview
 The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada.
 This project displays the steps taken to convert raw excel data into power bi dashboard.
 
@@ -29,7 +29,7 @@ This project displays the steps taken to convert raw excel data into power bi da
 
 ---
 
-## 💻Business Challenge
+### 💻Business Challenge
 -	The Head of Marketing has found that finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
 -	She has performed online research but constantly bumps into overly complicated and conflicting insights.
 -	She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
@@ -37,7 +37,7 @@ This project displays the steps taken to convert raw excel data into power bi da
 
 ---
 
-## Tools & Technologies
+### ⚙️Tools & Technologies
 
 | Tool |Purpose | Skills Demonstrated |
 |-----|---------|-----------|
@@ -48,7 +48,17 @@ This project displays the steps taken to convert raw excel data into power bi da
 
 ---
 
+### 🪜Project Stages
+The general approach in creating this solution from start to finish.
+- Development
+  - Data Exploration
+  - Data Cleaning
+  - Data Quality Check
+  - Visualization
+- Analysis
+- Validation
 
+ ---
 
 
 
