@@ -1,5 +1,6 @@
-# 🌟Excel to Power BI 
-## ⬆️Project: Top Performing Canadian YouTubers
+# ⬆️Project: Top Performing Canadian YouTubers
+## 🌟Excel to Power BI 
+
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
 ### 📋Table of contents
@@ -23,8 +24,10 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 
 The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
 
-![Raw Data](/assets/images/Excel Dataset.png) 
-![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
+![](/assets/images/ExcelDataset.png) 
+
+![](/assets/images/PowerBIDashboardVisual.png)
+
 
 ---
 
